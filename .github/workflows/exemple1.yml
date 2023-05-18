@@ -14,7 +14,7 @@ jobs:
         with:
           # You can target a project in a different organization
           # to the issue
-          project-url: https://github.com/ericlogut/M8GitHubActions.git
+          project-url: https://github.com/users/ericlogut/projects/1
           github-token: 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
           labeled: bug, needs-triage
           label-operator: OR
