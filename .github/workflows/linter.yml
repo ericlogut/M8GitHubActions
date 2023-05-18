@@ -22,4 +22,4 @@ jobs:
         uses: github/super-linter@v4
         env:
           DEFAULT_BRANCH: main
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
