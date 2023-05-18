@@ -49,7 +49,7 @@ jobs:
 
       - name: Link check (warnings, changed files)
         run: |
-          ./action-scripts/rendered-content-link-checker.mjs \
+          ./script/rendered-content-link-checker.mjs \
             --language en \
             --max 100 \
             --check-anchors \
@@ -59,7 +59,7 @@ jobs:
 
       - name: Link check (critical, all files)
         run: |
-          ./action-scripts/rendered-content-link-checker.mjs \
+          ./script/rendered-content-link-checker.mjs \
             --language en \
             --exit \
             --verbose \
