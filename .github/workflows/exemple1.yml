@@ -1,4 +1,4 @@
-name: Exemple 1. Add to project
+--- name: Exemple 1. Add to project
 
 on:
   issues:
